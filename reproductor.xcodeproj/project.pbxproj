@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8398F021D0B50650034DB73 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398EFF1D0B50650034DB73 /* image3.jpg */; };
+		A8398F031D0B50650034DB73 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398F001D0B50650034DB73 /* image2.jpg */; };
+		A8398F041D0B50650034DB73 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398F011D0B50650034DB73 /* image1.jpg */; };
 		A8EF28981D0B3E3400B1AC50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF28971D0B3E3400B1AC50 /* AppDelegate.swift */; };
 		A8EF289A1D0B3E3400B1AC50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EF28991D0B3E3400B1AC50 /* ViewController.swift */; };
 		A8EF289D1D0B3E3400B1AC50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EF289B1D0B3E3400B1AC50 /* Main.storyboard */; };
 		A8EF28A01D0B3E3400B1AC50 /* reproductor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8EF289E1D0B3E3400B1AC50 /* reproductor.xcdatamodeld */; };
 		A8EF28A21D0B3E3400B1AC50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EF28A11D0B3E3400B1AC50 /* Assets.xcassets */; };
 		A8EF28A51D0B3E3400B1AC50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EF28A31D0B3E3400B1AC50 /* LaunchScreen.storyboard */; };
+		A8EF28B11D0B46DE00B1AC50 /* 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8EF28AE1D0B46DE00B1AC50 /* 01.mp3 */; };
+		A8EF28B21D0B46DE00B1AC50 /* 02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8EF28AF1D0B46DE00B1AC50 /* 02.mp3 */; };
+		A8EF28B31D0B46DE00B1AC50 /* 03.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8EF28B01D0B46DE00B1AC50 /* 03.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8398EFF1D0B50650034DB73 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
+		A8398F001D0B50650034DB73 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
+		A8398F011D0B50650034DB73 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
 		A8EF28941D0B3E3400B1AC50 /* reproductor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reproductor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EF28971D0B3E3400B1AC50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8EF28991D0B3E3400B1AC50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,9 @@
 		A8EF28A11D0B3E3400B1AC50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8EF28A41D0B3E3400B1AC50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8EF28A61D0B3E3400B1AC50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EF28AE1D0B46DE00B1AC50 /* 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 01.mp3; sourceTree = "<group>"; };
+		A8EF28AF1D0B46DE00B1AC50 /* 02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 02.mp3; sourceTree = "<group>"; };
+		A8EF28B01D0B46DE00B1AC50 /* 03.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 03.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 		A8EF28961D0B3E3400B1AC50 /* reproductor */ = {
 			isa = PBXGroup;
 			children = (
+				A8EF28AD1D0B46CF00B1AC50 /* imagenes */,
+				A8EF28AC1D0B46BD00B1AC50 /* sonidos */,
 				A8EF28971D0B3E3400B1AC50 /* AppDelegate.swift */,
 				A8EF28991D0B3E3400B1AC50 /* ViewController.swift */,
 				A8EF289B1D0B3E3400B1AC50 /* Main.storyboard */,
@@ -65,6 +79,26 @@
 				A8EF289E1D0B3E3400B1AC50 /* reproductor.xcdatamodeld */,
 			);
 			path = reproductor;
+			sourceTree = "<group>";
+		};
+		A8EF28AC1D0B46BD00B1AC50 /* sonidos */ = {
+			isa = PBXGroup;
+			children = (
+				A8EF28AE1D0B46DE00B1AC50 /* 01.mp3 */,
+				A8EF28AF1D0B46DE00B1AC50 /* 02.mp3 */,
+				A8EF28B01D0B46DE00B1AC50 /* 03.mp3 */,
+			);
+			name = sonidos;
+			sourceTree = "<group>";
+		};
+		A8EF28AD1D0B46CF00B1AC50 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				A8398EFF1D0B50650034DB73 /* image3.jpg */,
+				A8398F001D0B50650034DB73 /* image2.jpg */,
+				A8398F011D0B50650034DB73 /* image1.jpg */,
+			);
+			name = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +133,7 @@
 				TargetAttributes = {
 					A8EF28931D0B3E3400B1AC50 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LN8HJ98EK9;
 					};
 				};
 			};
@@ -125,9 +160,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EF28B21D0B46DE00B1AC50 /* 02.mp3 in Resources */,
+				A8EF28B31D0B46DE00B1AC50 /* 03.mp3 in Resources */,
 				A8EF28A51D0B3E3400B1AC50 /* LaunchScreen.storyboard in Resources */,
+				A8EF28B11D0B46DE00B1AC50 /* 01.mp3 in Resources */,
 				A8EF28A21D0B3E3400B1AC50 /* Assets.xcassets in Resources */,
+				A8398F021D0B50650034DB73 /* image3.jpg in Resources */,
+				A8398F031D0B50650034DB73 /* image2.jpg in Resources */,
 				A8EF289D1D0B3E3400B1AC50 /* Main.storyboard in Resources */,
+				A8398F041D0B50650034DB73 /* image1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = reproductor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.xquared.reproductor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -266,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = reproductor/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.xquared.reproductor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -292,6 +339,7 @@
 				A8EF28AB1D0B3E3400B1AC50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
