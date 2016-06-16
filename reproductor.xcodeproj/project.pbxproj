@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8387E381D1314230010130F /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8387E351D1314230010130F /* sound1.mp3 */; };
+		A8387E391D1314230010130F /* sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8387E361D1314230010130F /* sound2.mp3 */; };
+		A8387E3A1D1314230010130F /* sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A8387E371D1314230010130F /* sound3.mp3 */; };
 		A8398F021D0B50650034DB73 /* image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398EFF1D0B50650034DB73 /* image3.jpg */; };
 		A8398F031D0B50650034DB73 /* image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398F001D0B50650034DB73 /* image2.jpg */; };
 		A8398F041D0B50650034DB73 /* image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A8398F011D0B50650034DB73 /* image1.jpg */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8387E351D1314230010130F /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		A8387E361D1314230010130F /* sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound2.mp3; sourceTree = "<group>"; };
+		A8387E371D1314230010130F /* sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound3.mp3; sourceTree = "<group>"; };
 		A8398EFF1D0B50650034DB73 /* image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image3.jpg; sourceTree = "<group>"; };
 		A8398F001D0B50650034DB73 /* image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image2.jpg; sourceTree = "<group>"; };
 		A8398F011D0B50650034DB73 /* image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image1.jpg; sourceTree = "<group>"; };
@@ -84,6 +90,9 @@
 		A8EF28AC1D0B46BD00B1AC50 /* sonidos */ = {
 			isa = PBXGroup;
 			children = (
+				A8387E351D1314230010130F /* sound1.mp3 */,
+				A8387E361D1314230010130F /* sound2.mp3 */,
+				A8387E371D1314230010130F /* sound3.mp3 */,
 				A8EF28AE1D0B46DE00B1AC50 /* 01.mp3 */,
 				A8EF28AF1D0B46DE00B1AC50 /* 02.mp3 */,
 				A8EF28B01D0B46DE00B1AC50 /* 03.mp3 */,
@@ -160,8 +169,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8387E381D1314230010130F /* sound1.mp3 in Resources */,
+				A8387E391D1314230010130F /* sound2.mp3 in Resources */,
 				A8EF28B21D0B46DE00B1AC50 /* 02.mp3 in Resources */,
 				A8EF28B31D0B46DE00B1AC50 /* 03.mp3 in Resources */,
+				A8387E3A1D1314230010130F /* sound3.mp3 in Resources */,
 				A8EF28A51D0B3E3400B1AC50 /* LaunchScreen.storyboard in Resources */,
 				A8EF28B11D0B46DE00B1AC50 /* 01.mp3 in Resources */,
 				A8EF28A21D0B3E3400B1AC50 /* Assets.xcassets in Resources */,

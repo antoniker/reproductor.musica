@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     
     let ListaTitulos: [String] =   ["This Corner","Kings never died","Beast"]
     let ListaAutores: [String] =  ["Kon Artis","Eminem (Feat Gwen Stefany)","Busta Rhymes"]
-    let ListaCanciones: [String] =    ["01","02","03"]
+    let ListaCanciones: [String] =    ["sound1","sound2","sound3"]
     let ListaImagenes: [String] =   ["image1","image2","image3"]
     
     
